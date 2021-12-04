@@ -1,3 +1,4 @@
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">  
 <suite name="Suite1" verbose="1" >
   <test name="Regression1"   >
     <packages>

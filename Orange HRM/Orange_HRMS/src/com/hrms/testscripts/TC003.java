@@ -8,7 +8,7 @@ import com.hrms.lib.General;
 public class TC003 {
 	@Test
 	public void tc003() {
-		DOMConfigurator.configure("log4j.xml");
+		DOMConfigurator.configure("C:\\Users\\ashutosh\\git\\repository\\Orange HRM\\Orange_HRMS\\src\\com\\hrms\\utility\\log4j.xml");
 		General obj=new General();
 		obj.openApplication();
 		obj.login();
