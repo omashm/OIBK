@@ -3,6 +3,7 @@ package com.hrms.lib;
 
 import java.io.FileInputStream;
 
+import org.apache.xpath.operations.String;
 import org.openqa.selenium.WebDriver;
 
 import jxl.Sheet;
@@ -18,7 +19,7 @@ public class Global {
 	public String un="admin";
 	public String pw="admin";
 	public String frame="rightMenu";
-	
+
 	//objects
 	public String txt_loginname="//*[@id=\"Table_01\"]/tbody/tr[1]/td[2]/table/tbody/tr[2]/td[2]/input";
 	public String txt_password="//*[@id=\"Table_01\"]/tbody/tr[1]/td[2]/table/tbody/tr[3]/td[2]/input";
@@ -34,5 +35,5 @@ public class Global {
 	public String btn_editndsave="//*[@id=\"btnEditPers\"]";
 	public String imgEmp="//*[@id=\"photodiv\"]/img";
 	public String imgDelete="//*[@id=\"photo\"]/div[1]/div[2]/div[2]/div/input[2]";
-	
+
 }

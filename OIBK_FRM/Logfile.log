@@ -1,0 +1,224 @@
+2022-02-11 11:57:19,946 INFO  [Log] Application Opened 
+2022-02-11 11:57:20,563 INFO  [Log] Login completed 
+2022-02-11 11:57:20,759 INFO  [Log] Logout completed 
+2022-02-11 11:57:20,891 INFO  [Log] Application Closed 
+2022-02-11 11:57:39,757 INFO  [Log] Application Opened 
+2022-02-11 11:57:40,245 INFO  [Log] Login completed 
+2022-02-11 11:57:40,449 INFO  [Log] Logout completed 
+2022-02-11 11:57:40,593 INFO  [Log] Application Closed 
+2022-02-11 11:57:42,606 INFO  [Log] Application Opened 
+2022-02-11 11:57:43,067 INFO  [Log] Login completed 
+2022-02-11 11:57:43,323 INFO  [Log] Logout completed 
+2022-02-11 11:57:43,494 INFO  [Log] Application Closed 
+2022-02-11 11:57:45,281 INFO  [Log] Application Opened 
+2022-02-11 11:57:45,800 INFO  [Log] Login completed 
+2022-02-11 11:57:45,975 INFO  [Log] Mouseover on Branches menu Completed 
+2022-02-11 11:57:46,403 INFO  [Log] Clicked on Register Branches sub menu 
+2022-02-11 11:57:47,016 INFO  [Log] Branch Registeration Sucessful 
+2022-02-11 11:57:47,153 INFO  [Log] Mouseover on Branches menu Completed 
+2022-02-11 11:57:47,557 INFO  [Log] Clicked on View Branches sub menu 
+2022-02-11 11:57:47,776 INFO  [Log] Logout completed 
+2022-02-11 11:57:47,863 INFO  [Log] Application Closed 
+2022-02-11 11:57:49,618 INFO  [Log] Application Opened 
+2022-02-11 11:57:50,430 INFO  [Log] Login completed 
+2022-02-11 11:57:50,571 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 11:57:50,939 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 11:57:57,473 INFO  [Log] Employee Registeration Sucessful 
+2022-02-11 11:57:57,698 INFO  [Log] Logout completed 
+2022-02-11 11:57:57,833 INFO  [Log] Application Closed 
+2022-02-11 11:57:59,850 INFO  [Log] Application Opened 
+2022-02-11 11:58:00,516 INFO  [Log] Login completed 
+2022-02-11 11:58:00,727 INFO  [Log] Logout completed 
+2022-02-11 11:58:00,815 INFO  [Log] Application Closed 
+2022-02-11 11:58:02,450 INFO  [Log] Application Opened 
+2022-02-11 11:58:02,951 INFO  [Log] Login completed 
+2022-02-11 11:58:03,094 INFO  [Log] Mouseover on Customer menu Completed 
+2022-02-11 11:58:03,530 INFO  [Log] Clicked on Register Customer sub menu 
+2022-02-11 11:58:10,163 INFO  [Log] Customer Registeration Sucessful. 
+2022-02-11 11:58:13,378 INFO  [Log] Logout completed 
+2022-02-11 11:58:15,496 INFO  [Log] Application Closed 
+
+2022-02-11 12:10:39,271 INFO  [Log] Application Opened 
+2022-02-11 12:10:39,806 INFO  [Log] Login completed 
+2022-02-11 12:10:39,968 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 12:10:40,504 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 12:10:47,261 INFO  [Log] Employee Registeration Sucessful 
+2022-02-11 12:10:47,872 INFO  [Log] Logout completed 
+2022-02-11 12:10:47,960 INFO  [Log] Application Closed 
+2022-02-11 21:52:59,871 INFO  [Log] Application Opened 
+2022-02-11 21:53:00,553 INFO  [Log] Login completed 
+2022-02-11 21:53:00,724 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 21:53:01,775 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 21:53:02,939 INFO  [Log] Application Closed 
+2022-02-11 21:54:27,588 INFO  [Log] Application Opened 
+2022-02-11 21:54:28,437 INFO  [Log] Login completed 
+2022-02-11 21:54:28,607 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 21:54:29,576 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 21:54:30,707 INFO  [Log] Application Closed 
+2022-02-11 21:56:34,573 INFO  [Log] Application Opened 
+2022-02-11 21:56:35,227 INFO  [Log] Login completed 
+2022-02-11 21:56:35,398 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 21:56:35,881 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 21:56:36,932 INFO  [Log] Application Closed 
+2022-02-11 21:58:13,621 INFO  [Log] Application Opened 
+2022-02-11 21:58:14,849 INFO  [Log] Login completed 
+2022-02-11 21:58:15,029 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 21:58:15,529 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 21:58:16,754 INFO  [Log] Application Closed 
+2022-02-11 21:58:17,049 WARN  [HashedWheelTimer] An exception was thrown by TimerTask. 
+java.lang.IllegalStateException: cannot be started once stopped
+	at io.netty.util.HashedWheelTimer.start(HashedWheelTimer.java:338)
+	at io.netty.util.HashedWheelTimer.newTimeout(HashedWheelTimer.java:413)
+	at org.asynchttpclient.netty.channel.DefaultChannelPool.scheduleNewIdleChannelDetector(DefaultChannelPool.java:95)
+	at org.asynchttpclient.netty.channel.DefaultChannelPool.access$900(DefaultChannelPool.java:43)
+	at org.asynchttpclient.netty.channel.DefaultChannelPool$IdleChannelDetector.run(DefaultChannelPool.java:378)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:669)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:744)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:469)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-02-11 22:12:08,079 INFO  [Log] Application Opened 
+2022-02-11 22:12:08,699 INFO  [Log] Login completed 
+2022-02-11 22:12:08,863 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 22:12:09,359 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 22:12:10,674 INFO  [Log] Application Closed 
+2022-02-11 22:16:11,331 INFO  [Log] Application Opened 
+2022-02-11 22:16:12,266 INFO  [Log] Login completed 
+2022-02-11 22:16:12,463 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 22:16:13,506 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 22:16:14,679 INFO  [Log] Application Closed 
+2022-02-11 22:18:31,834 INFO  [Log] Application Opened 
+2022-02-11 22:18:33,533 INFO  [Log] Login completed 
+2022-02-11 22:18:33,706 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 22:18:35,322 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 22:18:36,689 INFO  [Log] Application Closed 
+2022-02-11 22:19:34,368 INFO  [Log] Application Opened 
+2022-02-11 22:19:36,012 INFO  [Log] Login completed 
+2022-02-11 22:19:36,259 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 22:19:36,764 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 22:19:38,067 INFO  [Log] Application Closed 
+2022-02-11 22:19:38,406 WARN  [HashedWheelTimer] An exception was thrown by TimerTask. 
+java.lang.IllegalStateException: cannot be started once stopped
+	at io.netty.util.HashedWheelTimer.start(HashedWheelTimer.java:338)
+	at io.netty.util.HashedWheelTimer.newTimeout(HashedWheelTimer.java:413)
+	at org.asynchttpclient.netty.channel.DefaultChannelPool.scheduleNewIdleChannelDetector(DefaultChannelPool.java:95)
+	at org.asynchttpclient.netty.channel.DefaultChannelPool.access$900(DefaultChannelPool.java:43)
+	at org.asynchttpclient.netty.channel.DefaultChannelPool$IdleChannelDetector.run(DefaultChannelPool.java:378)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:669)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:744)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:469)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-02-11 22:20:08,208 INFO  [Log] Application Opened 
+2022-02-11 22:20:09,265 INFO  [Log] Login completed 
+2022-02-11 22:20:09,447 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 22:20:10,512 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 22:20:11,778 INFO  [Log] Application Closed 
+2022-02-11 22:21:16,627 INFO  [Log] Application Opened 
+2022-02-11 22:21:17,631 INFO  [Log] Login completed 
+2022-02-11 22:21:17,839 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 22:21:18,848 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 22:21:20,187 INFO  [Log] Application Closed 
+2022-02-11 22:22:31,988 INFO  [Log] Application Opened 
+2022-02-11 22:22:33,198 INFO  [Log] Login completed 
+2022-02-11 22:22:33,384 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 22:22:33,899 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 22:22:35,260 INFO  [Log] Application Closed 
+2022-02-11 22:32:49,306 INFO  [Log] Application Opened 
+2022-02-11 22:32:49,779 INFO  [Log] Login completed 
+2022-02-11 22:32:49,950 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 22:32:50,452 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 22:32:51,451 INFO  [Log] Application Closed 
+2022-02-11 22:34:41,018 INFO  [Log] Application Opened 
+2022-02-11 22:34:41,591 INFO  [Log] Login completed 
+2022-02-11 22:34:41,775 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 22:34:42,255 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 22:34:43,226 INFO  [Log] Application Closed 
+2022-02-11 22:35:16,537 INFO  [Log] Application Opened 
+2022-02-11 22:35:17,244 INFO  [Log] Login completed 
+2022-02-11 22:35:17,423 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 22:35:18,166 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 22:35:19,118 INFO  [Log] Application Closed 
+2022-02-11 22:40:06,199 INFO  [Log] Application Opened 
+2022-02-11 22:40:06,739 INFO  [Log] Login completed 
+2022-02-11 22:40:06,905 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 22:40:07,351 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 22:40:51,139 INFO  [Log] Application Opened 
+2022-02-11 22:40:52,002 INFO  [Log] Login completed 
+2022-02-11 22:40:52,181 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-11 22:40:52,962 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-11 22:41:02,869 INFO  [Log] Employee Registeration Sucessful 
+2022-02-11 22:41:03,687 INFO  [Log] Logout completed 
+2022-02-11 22:41:03,869 INFO  [Log] Application Closed 
+2022-02-14 12:25:10,672 INFO  [Log] Application Opened 
+2022-02-14 12:25:11,777 INFO  [Log] Login completed 
+2022-02-14 12:25:12,070 INFO  [Log] Logout completed 
+2022-02-14 12:25:12,324 INFO  [Log] Application Closed 
+2022-02-14 12:25:15,186 INFO  [Log] Application Opened 
+2022-02-14 12:25:15,802 INFO  [Log] Login completed 
+2022-02-14 12:25:16,208 INFO  [Log] Logout completed 
+2022-02-14 12:25:16,408 INFO  [Log] Application Closed 
+2022-02-14 12:25:18,976 INFO  [Log] Application Opened 
+2022-02-14 12:25:19,716 INFO  [Log] Login completed 
+2022-02-14 12:25:19,939 INFO  [Log] Mouseover on Branches menu Completed 
+2022-02-14 12:25:20,478 INFO  [Log] Clicked on Register Branches sub menu 
+2022-02-14 12:25:21,387 INFO  [Log] Branch Registeration Sucessful 
+2022-02-14 12:25:21,560 INFO  [Log] Mouseover on Branches menu Completed 
+2022-02-14 12:25:25,111 INFO  [Log] Clicked on View Branches sub menu 
+2022-02-14 12:25:25,682 INFO  [Log] Logout completed 
+2022-02-14 12:25:25,878 INFO  [Log] Application Closed 
+2022-02-14 12:25:28,576 INFO  [Log] Application Opened 
+2022-02-14 12:25:29,839 INFO  [Log] Login completed 
+2022-02-14 12:25:30,002 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-14 12:25:31,067 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-14 12:25:42,152 INFO  [Log] Employee Registeration Sucessful 
+2022-02-14 12:25:42,432 INFO  [Log] Logout completed 
+2022-02-14 12:25:42,652 INFO  [Log] Application Closed 
+2022-02-14 12:25:45,469 INFO  [Log] Application Opened 
+2022-02-14 12:25:46,311 INFO  [Log] Login completed 
+2022-02-14 12:25:46,583 INFO  [Log] Logout completed 
+2022-02-14 12:25:46,788 INFO  [Log] Application Closed 
+2022-02-14 12:25:49,479 INFO  [Log] Application Opened 
+2022-02-14 12:25:50,209 INFO  [Log] Login completed 
+2022-02-14 12:25:50,366 INFO  [Log] Mouseover on Customer menu Completed 
+2022-02-14 12:25:50,990 INFO  [Log] Clicked on Register Customer sub menu 
+2022-02-14 12:25:59,709 INFO  [Log] Customer Registeration Sucessful. 
+2022-02-14 12:26:03,804 INFO  [Log] Logout completed 
+2022-02-14 12:26:05,936 INFO  [Log] Application Closed 
+2022-02-14 12:41:19,395 INFO  [Log] Application Opened 
+2022-02-14 12:41:20,097 INFO  [Log] Login completed 
+2022-02-14 12:41:20,500 INFO  [Log] Logout completed 
+2022-02-14 12:41:22,303 INFO  [Log] Application Closed 
+2022-02-14 12:41:26,188 INFO  [Log] Application Opened 
+2022-02-14 12:41:27,456 INFO  [Log] Login completed 
+2022-02-14 12:41:27,663 INFO  [Log] Mouseover on Branches menu Completed 
+2022-02-14 12:41:28,294 INFO  [Log] Clicked on Register Branches sub menu 
+2022-02-14 12:41:29,193 INFO  [Log] Branch Registeration Sucessful 
+2022-02-14 12:41:29,360 INFO  [Log] Mouseover on Branches menu Completed 
+2022-02-14 12:41:30,043 INFO  [Log] Clicked on View Branches sub menu 
+2022-02-14 12:41:30,310 INFO  [Log] Logout completed 
+2022-02-14 12:41:30,497 INFO  [Log] Application Closed 
+2022-02-14 12:41:33,645 INFO  [Log] Application Opened 
+2022-02-14 12:41:34,294 INFO  [Log] Login completed 
+2022-02-14 12:41:34,462 INFO  [Log] Mouseover on Employee menu Completed 
+2022-02-14 12:41:34,922 INFO  [Log] Clicked on Register Employee sub menu 
+2022-02-14 12:41:46,498 INFO  [Log] Employee Registeration Sucessful 
+2022-02-14 12:41:47,690 INFO  [Log] Logout completed 
+2022-02-14 12:41:47,874 INFO  [Log] Application Closed 
+2022-02-14 12:41:50,854 INFO  [Log] Application Opened 
+2022-02-14 12:41:51,930 INFO  [Log] Login completed 
+2022-02-14 12:41:52,984 INFO  [Log] Logout completed 
+2022-02-14 12:41:53,152 INFO  [Log] Application Closed 
+2022-02-14 12:41:56,598 INFO  [Log] Application Opened 
+2022-02-14 12:41:57,412 INFO  [Log] Login completed 
+2022-02-14 12:41:57,580 INFO  [Log] Mouseover on Customer menu Completed 
+2022-02-14 12:41:58,283 INFO  [Log] Clicked on Register Customer sub menu 
+2022-02-14 12:42:05,954 INFO  [Log] Customer Registeration Sucessful. 
+2022-02-14 12:42:09,607 INFO  [Log] Logout completed 
+2022-02-14 12:42:11,815 INFO  [Log] Application Closed 
+2022-02-15 11:22:24,479 INFO  [Log] Application Closed 
+2022-02-15 11:23:11,748 INFO  [Log] Application Closed 
+2022-02-15 11:23:56,664 INFO  [Log] Application Closed 
+2022-02-15 11:24:45,851 INFO  [Log] Application Closed 
+2022-02-15 11:25:30,130 INFO  [Log] Application Closed 
+2022-02-15 11:26:20,509 INFO  [Log] Application Closed 

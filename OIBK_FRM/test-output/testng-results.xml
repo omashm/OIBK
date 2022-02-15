@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application not opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Failed]]>
+    </line>
+    <line>
+      <![CDATA[Logout Failed]]>
+    </line>
+    <line>
+      <![CDATA[Application closed]]>
+    </line>
+    <line>
+      <![CDATA[Application not opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Failed]]>
+    </line>
+    <line>
+      <![CDATA[Welcome Text not found]]>
+    </line>
+    <line>
+      <![CDATA[Logout Failed]]>
+    </line>
+    <line>
+      <![CDATA[Application closed]]>
+    </line>
+    <line>
+      <![CDATA[Application not opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Failed]]>
+    </line>
+    <line>
+      <![CDATA[Mouseover on Branches menu Failed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Register Branches sub menu Failed]]>
+    </line>
+    <line>
+      <![CDATA[Branch Registeration Failed]]>
+    </line>
+    <line>
+      <![CDATA[Mouseover on Branches menu Failed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on View Branches sub menu Failed]]>
+    </line>
+    <line>
+      <![CDATA[Logout Failed]]>
+    </line>
+    <line>
+      <![CDATA[Application closed]]>
+    </line>
+    <line>
+      <![CDATA[Application not opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Failed]]>
+    </line>
+    <line>
+      <![CDATA[Mouseover on Employee menu Failed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Register Employee sub menu Failed]]>
+    </line>
+    <line>
+      <![CDATA[Employee Registeration Fail]]>
+    </line>
+    <line>
+      <![CDATA[Logout Failed]]>
+    </line>
+    <line>
+      <![CDATA[Application closed]]>
+    </line>
+    <line>
+      <![CDATA[Application not opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Failed]]>
+    </line>
+    <line>
+      <![CDATA[Logout Failed]]>
+    </line>
+    <line>
+      <![CDATA[Application closed]]>
+    </line>
+    <line>
+      <![CDATA[Application not opened]]>
+    </line>
+    <line>
+      <![CDATA[Login Failed]]>
+    </line>
+    <line>
+      <![CDATA[Mouseover on Customer menu Failed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Register Customer sub menu Failed]]>
+    </line>
+    <line>
+      <![CDATA[Customer Registeration Fail.]]>
+    </line>
+    <line>
+      <![CDATA[Logout Failed]]>
+    </line>
+    <line>
+      <![CDATA[Application closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-15T05:51:28Z" name="Suite1" finished-at="2022-02-15T05:56:20Z" duration-ms="292026">
+    <groups>
+    </groups>
+    <test started-at="2022-02-15T05:51:28Z" name="Regression1" finished-at="2022-02-15T05:56:20Z" duration-ms="292026">
+      <class name="com.oibk.testscripts.TC005_Employee_Login_Logout">
+        <test-method signature="TC005()[pri:0, instance:com.oibk.testscripts.TC005_Employee_Login_Logout@1622f1b]" started-at="2022-02-15T11:24:45Z" name="TC005" finished-at="2022-02-15T11:25:30Z" duration-ms="44278" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application not opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Failed]]>
+            </line>
+            <line>
+              <![CDATA[Logout Failed]]>
+            </line>
+            <line>
+              <![CDATA[Application closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC005 -->
+      </class> <!-- com.oibk.testscripts.TC005_Employee_Login_Logout -->
+      <class name="com.oibk.testscripts.TC001_Admin_Login_Logout">
+        <test-method signature="TC001()[pri:0, instance:com.oibk.testscripts.TC001_Admin_Login_Logout@63021689]" started-at="2022-02-15T11:21:28Z" name="TC001" finished-at="2022-02-15T11:22:24Z" duration-ms="56012" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application not opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Failed]]>
+            </line>
+            <line>
+              <![CDATA[Logout Failed]]>
+            </line>
+            <line>
+              <![CDATA[Application closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+      </class> <!-- com.oibk.testscripts.TC001_Admin_Login_Logout -->
+      <class name="com.oibk.testscripts.TC003_Register_Branches">
+        <test-method signature="TC003()[pri:0, instance:com.oibk.testscripts.TC003_Register_Branches@3e92efc3]" started-at="2022-02-15T11:23:11Z" name="TC003" finished-at="2022-02-15T11:23:56Z" duration-ms="44915" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application not opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Failed]]>
+            </line>
+            <line>
+              <![CDATA[Mouseover on Branches menu Failed]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Register Branches sub menu Failed]]>
+            </line>
+            <line>
+              <![CDATA[Branch Registeration Failed]]>
+            </line>
+            <line>
+              <![CDATA[Mouseover on Branches menu Failed]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on View Branches sub menu Failed]]>
+            </line>
+            <line>
+              <![CDATA[Logout Failed]]>
+            </line>
+            <line>
+              <![CDATA[Application closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC003 -->
+      </class> <!-- com.oibk.testscripts.TC003_Register_Branches -->
+      <class name="com.oibk.testscripts.TC002_Welcome_Text_on_AdminPage">
+        <test-method signature="TC002()[pri:0, instance:com.oibk.testscripts.TC002_Welcome_Text_on_AdminPage@3ba9ad43]" started-at="2022-02-15T11:22:24Z" name="TC002" finished-at="2022-02-15T11:23:11Z" duration-ms="47223" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application not opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Failed]]>
+            </line>
+            <line>
+              <![CDATA[Welcome Text not found]]>
+            </line>
+            <line>
+              <![CDATA[Logout Failed]]>
+            </line>
+            <line>
+              <![CDATA[Application closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC002 -->
+      </class> <!-- com.oibk.testscripts.TC002_Welcome_Text_on_AdminPage -->
+      <class name="com.oibk.testscripts.TC006_Customer_Registeration">
+        <test-method signature="TC006()[pri:0, instance:com.oibk.testscripts.TC006_Customer_Registeration@72a7c7e0]" started-at="2022-02-15T11:25:30Z" name="TC006" finished-at="2022-02-15T11:26:20Z" duration-ms="50380" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application not opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Failed]]>
+            </line>
+            <line>
+              <![CDATA[Mouseover on Customer menu Failed]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Register Customer sub menu Failed]]>
+            </line>
+            <line>
+              <![CDATA[Customer Registeration Fail.]]>
+            </line>
+            <line>
+              <![CDATA[Logout Failed]]>
+            </line>
+            <line>
+              <![CDATA[Application closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC006 -->
+      </class> <!-- com.oibk.testscripts.TC006_Customer_Registeration -->
+      <class name="com.oibk.testscripts.TC004_Employee_Registeration">
+        <test-method signature="TC004()[pri:0, instance:com.oibk.testscripts.TC004_Employee_Registeration@703580bf]" started-at="2022-02-15T11:23:56Z" name="TC004" finished-at="2022-02-15T11:24:45Z" duration-ms="49187" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application not opened]]>
+            </line>
+            <line>
+              <![CDATA[Login Failed]]>
+            </line>
+            <line>
+              <![CDATA[Mouseover on Employee menu Failed]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Register Employee sub menu Failed]]>
+            </line>
+            <line>
+              <![CDATA[Employee Registeration Fail]]>
+            </line>
+            <line>
+              <![CDATA[Logout Failed]]>
+            </line>
+            <line>
+              <![CDATA[Application closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC004 -->
+      </class> <!-- com.oibk.testscripts.TC004_Employee_Registeration -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
